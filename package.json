@@ -1,0 +1,16 @@
+{
+  "name": "wamp-cli",
+  "version": "0.0.0",
+  "description": "A CLI for testing WAMP connections",
+  "main": "index.js",
+  "bin": {
+    "wampc": "bin/wampc"
+  },
+  "author": "John Wright <johngeorge.wright@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "autobahn": "^0.9.9",
+    "commander": "^2.9.0",
+    "inquirer": "^1.0.2"
+  }
+}
