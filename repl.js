@@ -1,58 +1,72 @@
 'use strict';
 
-const inquirer = require('inquirer');
+const repl = require('repl')
+require('colors')
 
-class REPL {
+class Evaluator {
   constructor(session) {
     this.session = session;
     this.evalute = this.evalute.bind(this);
-    this.printSuccess = this.printSuccess.bind(this);
-    this.printError = this.printError.bind(this);
-    this.loop = this.loop.bind(this);
   }
 
-  read() {
-    return inquirer
-      .prompt([{name: 'query', message: '-->'}])
-      .then(answers => answers.query);
-  }
-
-  evalute(query) {
-    let args = query.split(/\s+/g);
-    let type = args.shift();
+  evalute(type, query) {
+    let args = query.split(/\s+/g).filter(v => !!v);
     let name = args.shift();
     let parsedArgs = parseArgs(args);
-    console.log(`> --> session.${type}('${name}', [${parsedArgs}])`);
-    return this.session[type](name, parsedArgs);
-  }
-
-  printSuccess(result) {
-    console.log(result);
-  }
-
-  printError(error) {
-    if (error.stack) console.error(error.stack);
-    else console.error(error);
-  }
-
-  loop() {
-    return this
-      .read()
-      .then(this.evalute)
-      .then(this.printSuccess, this.printError)
-      .then(this.loop);
+    console.log(`-> session.${type}('${name}', [${parsedArgs}])`);
+    this
+      .session[type](name, parsedArgs)
+      .then(result => {
+        console.log(JSON.stringify(result, null, 2));
+      })
+      .catch(error => console.error(
+        `ERROR: ${error.error.bold.red}` +
+        error.args.map(arg => `\n\t${arg}`)
+      ))
   }
 }
 
-REPL.begin = session => {
-  console.log('Connected');
-  console.log('Usage: <call|publish> <name> [arg] [arg]')
-  let repl = new REPL(session);
-  repl.loop();
+exports.start = connection => session => {
+  console.log('Connected'.bold.green);
+  console.log('Usage: <.call|.publish> <name> [...args]'.italic.yellow);
+  console.log();
+
+  let evaulator = new Evaluator(session);
+
+  let replServer = repl.start({
+    prompt: '$> '.magenta
+  });
+
+  replServer.defineCommand('call', {
+    help: 'Call a procedure',
+    action: function (query) {
+      this.lineParser.reset();
+      this.bufferedCommand = '';
+      evaulator.evalute('call', query);
+    }
+  });
+
+  replServer.defineCommand('publish', {
+    help: 'Publish an event',
+    action: function (query) {
+      this.lineParser.reset();
+      this.bufferedCommand = '';
+      evaulator.evalute('publish', query);
+    }
+  });
+
+  replServer.on('exit', () => connection.close());
+
 };
 
 function parseArgs(args) {
-  return args.map(JSON.parse);
+  return args.map(arg => {
+    switch (typeof arg) {
+      case 'string':
+      case 'number':
+        return arg;
+      default:
+        return JSON.parse(arg);
+    }
+  });
 }
-
-module.exports = REPL;

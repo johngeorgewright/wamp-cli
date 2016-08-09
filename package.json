@@ -10,6 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "autobahn": "^0.9.9",
+    "colors": "^1.1.2",
     "commander": "^2.9.0",
     "inquirer": "^1.0.2"
   }
