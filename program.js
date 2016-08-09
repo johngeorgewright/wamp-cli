@@ -3,12 +3,12 @@
 const autobahn = require('autobahn');
 const pkg = require('./package.json');
 const program = require('commander');
-const REPL = require('./repl');
+const repl = require('./repl');
 
 function start(url, realm) {
   let connection = new autobahn.Connection({url, realm});
-  connection.onopen = REPL.begin;
-  console.log(`Connection to ${url} ${realm}`)
+  connection.onopen = repl.start(connection);
+  console.log(`Connecting to ${url} ${realm}`)
   connection.open()
 }
 
