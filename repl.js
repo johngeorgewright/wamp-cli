@@ -21,8 +21,9 @@ class REPL {
     let args = query.split(/\s+/g);
     let type = args.shift();
     let name = args.shift();
-    console.log(`> --> session.${type}('${name}', [${query}])`);
-    return this.session[type](name, parseArgs(args));
+    let parsedArgs = parseArgs(args);
+    console.log(`> --> session.${type}('${name}', [${parsedArgs}])`);
+    return this.session[type](name, parsedArgs);
   }
 
   printSuccess(result) {
