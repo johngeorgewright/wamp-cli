@@ -3,19 +3,17 @@
 const repl = require('repl')
 require('colors')
 
-class Evaluator {
-  constructor(session) {
-    this.session = session;
-    this.evalute = this.evalute.bind(this);
-  }
+exports.start = connection => session => {
+  console.log('Connected'.bold.green);
+  console.log('Usage: <.call|.publish> <name> [...args]'.italic.yellow);
+  console.log();
 
-  evalute(type, query) {
+  const evalute = (type, query) => {
     let args = query.split(/\s+/g).filter(v => !!v);
     let name = args.shift();
     let parsedArgs = parseArgs(args);
     console.log(`-> session.${type}('${name}', [${parsedArgs}])`);
-    this
-      .session[type](name, parsedArgs)
+    session[type](name, parsedArgs)
       .then(result => {
         console.log(JSON.stringify(result, null, 2));
       })
@@ -24,14 +22,14 @@ class Evaluator {
         error.args.map(arg => `\n\t${arg}`)
       ))
   }
-}
 
-exports.start = connection => session => {
-  console.log('Connected'.bold.green);
-  console.log('Usage: <.call|.publish> <name> [...args]'.italic.yellow);
-  console.log();
-
-  let evaulator = new Evaluator(session);
+  const createAction = type => (
+    function (query) {
+      this.lineParser.reset();
+      this.bufferedCommand = '';
+      evalute(type, query);
+    }
+  );
 
   let replServer = repl.start({
     prompt: '$> '.magenta
@@ -39,24 +37,15 @@ exports.start = connection => session => {
 
   replServer.defineCommand('call', {
     help: 'Call a procedure',
-    action: function (query) {
-      this.lineParser.reset();
-      this.bufferedCommand = '';
-      evaulator.evalute('call', query);
-    }
+    action: createAction('call')
   });
 
   replServer.defineCommand('publish', {
     help: 'Publish an event',
-    action: function (query) {
-      this.lineParser.reset();
-      this.bufferedCommand = '';
-      evaulator.evalute('publish', query);
-    }
+    action: createAction('publish')
   });
 
   replServer.on('exit', () => connection.close());
-
 };
 
 function parseArgs(args) {
