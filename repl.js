@@ -35,6 +35,8 @@ exports.start = connection => session => {
     prompt: '$> '.magenta
   });
 
+  Object.assign(replServer.context, {connection, session});
+
   replServer.defineCommand('call', {
     help: 'Call a procedure',
     action: createAction('call')
