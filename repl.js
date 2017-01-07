@@ -1,63 +1,27 @@
-'use strict';
-
+const Table = require('cli-table')
 const repl = require('repl')
 require('colors')
 
 exports.start = connection => session => {
-  console.log('Connected'.bold.green);
-  console.log('Usage: <.call|.publish> <name> [...args]'.italic.yellow);
-  console.log();
+  const variableTable = new Table({head: ['Variable', 'Description']})
+  variableTable.push(['connection', 'The WAMP connection'])
+  variableTable.push(['seesion', 'The WAMP session'])
+  console.log()
+  console.log('Connected'.bold.green)
+  console.log()
+  console.log(variableTable.toString())
+  console.log()
 
-  const evalute = (type, query) => {
-    let args = query.split(/\s+/g).filter(v => !!v);
-    let name = args.shift();
-    let parsedArgs = parseArgs(args);
-    console.log(`-> session.${type}('${name}', [${parsedArgs}])`);
-    session[type](name, parsedArgs)
-      .then(result => {
-        console.log(JSON.stringify(result, null, 2));
-      })
-      .catch(error => console.error(
-        `ERROR: ${error.error.bold.red}` +
-        error.args.map(arg => `\n\t${arg}`)
-      ))
+  const replServer = repl.start({
+    prompt: '$> '.magenta
+  })
+
+  const reset = () => {
+    Object.assign(replServer.context, {connection, session})
+    replServer.once('exit', () => connection.close())
   }
 
-  const createAction = type => (
-    function (query) {
-      this.lineParser.reset();
-      this.bufferedCommand = '';
-      evalute(type, query);
-    }
-  );
+  replServer.on('reset', reset)
 
-  let replServer = repl.start({
-    prompt: '$> '.magenta
-  });
-
-  Object.assign(replServer.context, {connection, session});
-
-  replServer.defineCommand('call', {
-    help: 'Call a procedure',
-    action: createAction('call')
-  });
-
-  replServer.defineCommand('publish', {
-    help: 'Publish an event',
-    action: createAction('publish')
-  });
-
-  replServer.on('exit', () => connection.close());
-};
-
-function parseArgs(args) {
-  return args.map(arg => {
-    switch (typeof arg) {
-      case 'string':
-      case 'number':
-        return arg;
-      default:
-        return JSON.parse(arg);
-    }
-  });
+  reset()
 }
