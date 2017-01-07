@@ -9,13 +9,24 @@ Installation
 1. Install Node.js
 1. `npm i -g wamp-cli`
 
-Useage
+Usage
 ---
 
 ```
 # URL -> REALM
-wampc ws://localhost:9000/ws public
+$> wampc ws://localhost:9000/ws public
 
-? -> call com.site.registered.call {'arg':'blah'}
-{'some': 'kind of result'}
+Connecting to ws://localhost:9000/ws internal
+
+Connected
+
+┌────────────┬─────────────────────┐
+│ Variable   │ Description         │
+├────────────┼─────────────────────┤
+│ connection │ The WAMP connection │
+├────────────┼─────────────────────┤
+│ seesion    │ The WAMP session    │
+└────────────┴─────────────────────┘
+
+$>
 ```
