@@ -12,8 +12,7 @@
     "autobahn": "^0.11.1",
     "cli-table": "^0.3.1",
     "colors": "^1.1.2",
-    "commander": "^2.9.0",
-    "inquirer": "^2.0.0"
+    "commander": "^2.9.0"
   },
   "devDependencies": {
     "eslint": "^3.13.0",
