@@ -25,7 +25,7 @@ Connected
 ├────────────┼─────────────────────┤
 │ connection │ The WAMP connection │
 ├────────────┼─────────────────────┤
-│ seesion    │ The WAMP session    │
+│ session    │ The WAMP session    │
 └────────────┴─────────────────────┘
 
 $>

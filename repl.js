@@ -5,7 +5,7 @@ require('colors')
 exports.start = connection => session => {
   const variableTable = new Table({head: ['Variable', 'Description']})
   variableTable.push(['connection', 'The WAMP connection'])
-  variableTable.push(['seesion', 'The WAMP session'])
+  variableTable.push(['session', 'The WAMP session'])
   console.log()
   console.log('Connected'.bold.green)
   console.log()
