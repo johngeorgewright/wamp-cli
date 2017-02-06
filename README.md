@@ -1,6 +1,8 @@
 WAMP CLI
 ===
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/johngeorgewright/wamp-cli.svg)](https://greenkeeper.io/)
+
 > A CLI tool to help building applications with the Web Applications Messaging Protocol
 
 Installation
