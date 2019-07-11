@@ -9,7 +9,7 @@
   "author": "John Wright <johngeorge.wright@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "autobahn": "^0.11.2",
+    "autobahn": "^19.7.2",
     "cli-table": "^0.3.1",
     "colors": "^1.1.2",
     "commander": "^2.9.0"
