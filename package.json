@@ -1,6 +1,6 @@
 {
   "name": "wamp-cli",
-  "version": "1.0.2",
+  "version": "0.0.0",
   "description": "A CLI for testing WAMP connections",
   "main": "dist/src/repl.js",
   "bin": {
@@ -18,7 +18,8 @@
   "dependencies": {
     "autobahn": "^20.7.2",
     "cli-table": "^0.3.1",
-    "colors": "^1.4.0"
+    "colors": "^1.4.0",
+    "commander": "^6.1.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^9.1.2",
@@ -26,7 +27,6 @@
     "@types/autobahn": "^18.10.0",
     "@types/cli-table": "^0.3.0",
     "@types/node": "^14.6.4",
-    "commander": "^6.1.0",
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^4.2.5",
     "lint-staged": "^10.3.0",
