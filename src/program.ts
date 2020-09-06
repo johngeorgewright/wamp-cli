@@ -1,16 +1,19 @@
-const autobahn = require('autobahn')
-const pkg = require('./package.json')
-const program = require('commander')
-const repl = require('./repl')
-require('colors')
+#!/usr/bin/env node
 
-function start (url, realm) {
-  let connection = new autobahn.Connection({url, realm})
+import autobahn from 'autobahn'
+import pkg from '../package.json'
+import program from 'commander'
+import * as repl from './repl'
+import 'colors'
+
+function start(url: string, realm: string) {
+  let connection = new autobahn.Connection({ url, realm })
   connection.onopen = repl.start(connection)
   connection.onclose = (reason, details) => {
     console.error('Connection lost'.red)
     console.error(reason)
     console.error(details)
+    return false
   }
   console.log(`Connecting to ${url} ${realm}`.italic.yellow)
   connection.open()
@@ -21,5 +24,3 @@ program
   .arguments('<url> <realm>')
   .action(start)
   .parse(process.argv)
-
-if (!program.args.length) program.help()
