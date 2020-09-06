@@ -4,7 +4,7 @@
   "description": "A CLI for testing WAMP connections",
   "main": "dist/src/repl.js",
   "bin": {
-    "wampc": "dist/src/bin/program.js"
+    "wampc": "dist/src/program.js"
   },
   "author": "John Wright <johngeorge.wright@gmail.com>",
   "license": "MIT",
