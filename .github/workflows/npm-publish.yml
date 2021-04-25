@@ -18,8 +18,10 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 12
+
       - name: Test
         run: npm install-ci-test
+
       - name: Build
         run: npm run build
 
@@ -29,9 +31,3 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-
-      - run: echo ${{ steps.semantic.outputs.release-version }}
-
-      - run: echo "$OUTPUTS"
-        env:
-          OUTPUTS: ${{ toJson(steps.semantic.outputs) }}
