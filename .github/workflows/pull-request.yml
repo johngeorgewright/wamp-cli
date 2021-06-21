@@ -13,7 +13,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [10.x, 12.x, 14.x, 16.x]
+        node-version: [12.x, 14.x, 16.x]
 
     steps:
       - name: Checkout project
@@ -23,6 +23,6 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: Install dependencies
-        run: npm ci
+        run: yarn --immutable
       - name: Build
-        run: npm run build --if-present
+        run: yarn build

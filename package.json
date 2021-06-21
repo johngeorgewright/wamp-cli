@@ -9,11 +9,9 @@
   "author": "John Wright <johngeorge.wright@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "prebuild": "npm run clean",
-    "build": "tsc",
-    "postbuild": "rimraf 'dist/**/?(__tests__|__mocks__|__setup__|*.test.*)'",
+    "build": "yarn clean && yarn tsc && yarn rimraf 'dist/**/?(__tests__|__mocks__|__setup__|*.test.*)'",
     "clean": "rimraf dist",
-    "start": "ts-node src/program"
+    "start": "yarn ts-node src/program"
   },
   "dependencies": {
     "autobahn": "^20.7.2",
@@ -35,20 +33,14 @@
     "ts-node": "^10.0.0",
     "typescript": "^4.0.2"
   },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "*.{md,json,js,jsx,ts,tsx,yml,yaml}": [
-      "prettier --ignore-path .gitignore --write"
+      "yarn prettier --ignore-path .gitignore --write"
     ]
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+      "path": "cz-conventional-changelog"
     }
   }
 }
