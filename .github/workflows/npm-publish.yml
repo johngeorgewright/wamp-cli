@@ -20,10 +20,10 @@ jobs:
           node-version: 12
 
       - name: Test
-        run: npm install-ci-test
+        run: yarn --immutable
 
       - name: Build
-        run: npm run build
+        run: yarn build
 
       - name: Release
         uses: codfish/semantic-release-action@v1
