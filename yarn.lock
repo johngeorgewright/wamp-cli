@@ -32,7 +32,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/cli@npm:^12.0.0":
+"@commitlint/cli@npm:12.1.4":
   version: 12.1.4
   resolution: "@commitlint/cli@npm:12.1.4"
   dependencies:
@@ -51,7 +51,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/config-conventional@npm:^12.0.0":
+"@commitlint/config-conventional@npm:12.1.4":
   version: 12.1.4
   resolution: "@commitlint/config-conventional@npm:12.1.4"
   dependencies:
@@ -298,7 +298,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/autobahn@npm:^18.10.0":
+"@types/autobahn@npm:18.10.0":
   version: 18.10.0
   resolution: "@types/autobahn@npm:18.10.0"
   dependencies:
@@ -307,7 +307,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/cli-table@npm:^0.3.0":
+"@types/cli-table@npm:0.3.0":
   version: 0.3.0
   resolution: "@types/cli-table@npm:0.3.0"
   checksum: 27c29c1ddbb5d89496e95b172718461fff7e8045c66a07f728e62b0fd6460f88c5f52dfe62e75ff62ce38907885186408c9df7693b396a73cea798c9123541e4
@@ -321,7 +321,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^14.6.4":
+"@types/node@npm:14.17.3":
   version: 14.17.3
   resolution: "@types/node@npm:14.17.3"
   checksum: 0d3e3c3dbb8250166d7c8c7c6221bde20a366d2c34b27c0072c3962a32c8a74c4ae4a168bfe53d6193e7b0bba8d8bc87608a6fd2af7918cd444a9aa699b4ce18
@@ -1007,7 +1007,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cz-conventional-changelog@npm:^3.3.0":
+"cz-conventional-changelog@npm:3.3.0":
   version: 3.3.0
   resolution: "cz-conventional-changelog@npm:3.3.0"
   dependencies:
@@ -1550,7 +1550,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"husky@npm:^6.0.0":
+"husky@npm:6.0.0":
   version: 6.0.0
   resolution: "husky@npm:6.0.0"
   bin:
@@ -1875,7 +1875,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:^11.0.0":
+"lint-staged@npm:11.0.0":
   version: 11.0.0
   resolution: "lint-staged@npm:11.0.0"
   dependencies:
@@ -2516,7 +2516,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.1.1":
+"prettier@npm:2.3.1":
   version: 2.3.1
   resolution: "prettier@npm:2.3.1"
   bin:
@@ -2709,7 +2709,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rimraf@npm:^3.0.2":
+"rimraf@npm:3.0.2, rimraf@npm:^3.0.2":
   version: 3.0.2
   resolution: "rimraf@npm:3.0.2"
   dependencies:
@@ -3154,7 +3154,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ts-node@npm:^10.0.0":
+"ts-node@npm:10.0.0":
   version: 10.0.0
   resolution: "ts-node@npm:10.0.0"
   dependencies:
@@ -3230,7 +3230,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-typescript@^4.0.2:
+typescript@4.3.4:
   version: 4.3.4
   resolution: "typescript@npm:4.3.4"
   bin:
@@ -3240,7 +3240,7 @@ typescript@^4.0.2:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.0.2#builtin<compat/typescript>":
+"typescript@patch:typescript@4.3.4#builtin<compat/typescript>":
   version: 4.3.4
   resolution: "typescript@patch:typescript@npm%3A4.3.4#builtin<compat/typescript>::version=4.3.4&hash=ddfc1b"
   bin:
@@ -3313,22 +3313,22 @@ typescript@^4.0.2:
   version: 0.0.0-use.local
   resolution: "wamp-cli@workspace:."
   dependencies:
-    "@commitlint/cli": ^12.0.0
-    "@commitlint/config-conventional": ^12.0.0
-    "@types/autobahn": ^18.10.0
-    "@types/cli-table": ^0.3.0
-    "@types/node": ^14.6.4
+    "@commitlint/cli": 12.1.4
+    "@commitlint/config-conventional": 12.1.4
+    "@types/autobahn": 18.10.0
+    "@types/cli-table": 0.3.0
+    "@types/node": 14.17.3
     autobahn: ^20.7.2
     cli-table: ^0.3.1
     colors: ^1.4.0
     commander: ^7.0.0
-    cz-conventional-changelog: ^3.3.0
-    husky: ^6.0.0
-    lint-staged: ^11.0.0
-    prettier: ^2.1.1
-    rimraf: ^3.0.2
-    ts-node: ^10.0.0
-    typescript: ^4.0.2
+    cz-conventional-changelog: 3.3.0
+    husky: 6.0.0
+    lint-staged: 11.0.0
+    prettier: 2.3.1
+    rimraf: 3.0.2
+    ts-node: 10.0.0
+    typescript: 4.3.4
   bin:
     wampc: dist/src/program.js
   languageName: unknown
