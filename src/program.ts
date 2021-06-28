@@ -2,7 +2,7 @@
 
 import { Connection } from 'autobahn'
 import pkg from '../package.json'
-import program from 'commander'
+import { program } from 'commander'
 import * as repl from './repl'
 import 'colors'
 
