@@ -1,6 +1,6 @@
 {
   "name": "wamp-cli",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "A CLI for testing WAMP connections",
   "main": "dist/src/repl.js",
   "bin": {
