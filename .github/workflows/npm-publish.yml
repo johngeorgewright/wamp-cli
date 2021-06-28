@@ -13,6 +13,8 @@ jobs:
     steps:
       - name: Checkout project
         uses: actions/checkout@master
+        with:
+          token: ${{ secrets.PUSH_TOKEN }}
 
       - name: Install Node.js
         uses: actions/setup-node@v2
@@ -26,8 +28,7 @@ jobs:
         run: yarn build
 
       - name: Release
-        uses: codfish/semantic-release-action@v1
-        id: semantic
+        run: yarn semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
