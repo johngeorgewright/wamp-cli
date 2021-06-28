@@ -2,9 +2,9 @@
   "name": "wamp-cli",
   "version": "2.0.1",
   "description": "A CLI for testing WAMP connections",
-  "main": "dist/src/repl.js",
+  "main": "dist/repl.js",
   "bin": {
-    "wampc": "dist/src/program.js"
+    "wampc": "dist/program.js"
   },
   "author": "John Wright <johngeorge.wright@gmail.com>",
   "license": "MIT",
