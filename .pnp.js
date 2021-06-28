@@ -803,14 +803,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],
       ["cbor", [
         ["npm:7.0.5", {
-          "packageLocation": "./.yarn/cache/cbor-npm-7.0.5-4627802a12-e9c4f36ad9.zip/node_modules/cbor/",
+          "packageLocation": "./.yarn/unplugged/cbor-virtual-69a668488c/node_modules/cbor/",
           "packageDependencies": [
             ["cbor", "npm:7.0.5"]
           ],
           "linkType": "SOFT",
         }],
         ["virtual:3f2d3b89b88455d7203c7380271a62f5b647fe458ed280bc74d406360edf1ecfaadac55d8494a0d0c3a6b7a1e0c5b17c740bd2234f2cd187a26beab6a69acb98#npm:7.0.5", {
-          "packageLocation": "./.yarn/$$virtual/cbor-virtual-69a668488c/0/cache/cbor-npm-7.0.5-4627802a12-e9c4f36ad9.zip/node_modules/cbor/",
+          "packageLocation": "./.yarn/unplugged/cbor-virtual-69a668488c/node_modules/cbor/",
           "packageDependencies": [
             ["cbor", "virtual:3f2d3b89b88455d7203c7380271a62f5b647fe458ed280bc74d406360edf1ecfaadac55d8494a0d0c3a6b7a1e0c5b17c740bd2234f2cd187a26beab6a69acb98#npm:7.0.5"],
             ["@cto.af/textdecoder", "npm:0.0.0"],
