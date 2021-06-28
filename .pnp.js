@@ -50,7 +50,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["autobahn", "npm:20.9.2"],
             ["cli-table", "npm:0.3.6"],
             ["colors", "npm:1.4.0"],
-            ["commander", "npm:7.2.0"],
+            ["commander", "npm:8.0.0"],
             ["cz-conventional-changelog", "npm:3.3.0"],
             ["husky", "npm:6.0.0"],
             ["lint-staged", "npm:11.0.0"],
@@ -1862,6 +1862,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/commander-npm-7.2.0-19178180f8-bdc0eca5e2.zip/node_modules/commander/",
           "packageDependencies": [
             ["commander", "npm:7.2.0"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:8.0.0", {
+          "packageLocation": "./.yarn/cache/commander-npm-8.0.0-25c55b70e8-01b32f95cd.zip/node_modules/commander/",
+          "packageDependencies": [
+            ["commander", "npm:8.0.0"]
           ],
           "linkType": "HARD",
         }]
@@ -6781,7 +6788,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["autobahn", "npm:20.9.2"],
             ["cli-table", "npm:0.3.6"],
             ["colors", "npm:1.4.0"],
-            ["commander", "npm:7.2.0"],
+            ["commander", "npm:8.0.0"],
             ["cz-conventional-changelog", "npm:3.3.0"],
             ["husky", "npm:6.0.0"],
             ["lint-staged", "npm:11.0.0"],
