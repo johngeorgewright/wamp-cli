@@ -1,10 +1,11 @@
 #!/usr/bin/env node
 
 import { Connection } from 'autobahn'
-import pkg from '../package.json'
 import { program } from 'commander'
 import * as repl from './repl'
 import 'colors'
+
+const pkg = require('../package.json')
 
 program
   .version(pkg.version)
