@@ -1,17 +1,19 @@
 {
   "compilerOptions": {
     "incremental": true,
-    "target": "es5",
+    "target": "es6",
     "module": "commonjs",
-    "lib": ["dom", "es2018", "esnext.asynciterable"],
+    "lib": ["es2018", "esnext.asynciterable"],
     "declaration": true,
     "sourceMap": true,
     "outDir": "./dist",
     "downlevelIteration": true,
     "strict": true,
     "noUnusedLocals": true,
+    "importHelpers": true,
     "noUnusedParameters": true,
     "noImplicitReturns": true,
+    "noImplicitOverride": true,
     "moduleResolution": "node",
     "esModuleInterop": true,
     "resolveJsonModule": true
