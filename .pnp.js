@@ -59,7 +59,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["semantic-release", "npm:17.4.4"],
             ["ts-node", "virtual:d3ff7da28b9005e911b4365f390f7cbfe0a9f4a31c86ae06f5520a1627801fac94ebf6c135e20ef7c16537dda43a12b25dba51d6de72821f1e36d2c8453ce770#npm:10.0.0"],
             ["tslib", "npm:2.3.0"],
-            ["typescript", "patch:typescript@npm%3A4.3.4#builtin<compat/typescript>::version=4.3.4&hash=ddfc1b"]
+            ["typescript", "patch:typescript@npm%3A4.3.5#builtin<compat/typescript>::version=4.3.5&hash=ddfc1b"]
           ],
           "linkType": "SOFT",
         }]
@@ -1587,14 +1587,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],
       ["cbor", [
         ["npm:7.0.5", {
-          "packageLocation": "./.yarn/unplugged/cbor-virtual-69a668488c/node_modules/cbor/",
+          "packageLocation": "./.yarn/cache/cbor-npm-7.0.5-4627802a12-e9c4f36ad9.zip/node_modules/cbor/",
           "packageDependencies": [
             ["cbor", "npm:7.0.5"]
           ],
           "linkType": "SOFT",
         }],
         ["virtual:3f2d3b89b88455d7203c7380271a62f5b647fe458ed280bc74d406360edf1ecfaadac55d8494a0d0c3a6b7a1e0c5b17c740bd2234f2cd187a26beab6a69acb98#npm:7.0.5", {
-          "packageLocation": "./.yarn/unplugged/cbor-virtual-69a668488c/node_modules/cbor/",
+          "packageLocation": "./.yarn/$$virtual/cbor-virtual-69a668488c/0/cache/cbor-npm-7.0.5-4627802a12-e9c4f36ad9.zip/node_modules/cbor/",
           "packageDependencies": [
             ["cbor", "virtual:3f2d3b89b88455d7203c7380271a62f5b647fe458ed280bc74d406360edf1ecfaadac55d8494a0d0c3a6b7a1e0c5b17c740bd2234f2cd187a26beab6a69acb98#npm:7.0.5"],
             ["@cto.af/textdecoder", "npm:0.0.0"],
@@ -6510,7 +6510,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["diff", "npm:4.0.2"],
             ["make-error", "npm:1.3.6"],
             ["source-map-support", "npm:0.5.19"],
-            ["typescript", "patch:typescript@npm%3A4.3.4#builtin<compat/typescript>::version=4.3.4&hash=ddfc1b"],
+            ["typescript", "patch:typescript@npm%3A4.3.5#builtin<compat/typescript>::version=4.3.5&hash=ddfc1b"],
             ["yn", "npm:3.1.1"]
           ],
           "packagePeers": [
@@ -6616,10 +6616,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["typescript", [
-        ["patch:typescript@npm%3A4.3.4#builtin<compat/typescript>::version=4.3.4&hash=ddfc1b", {
-          "packageLocation": "./.yarn/cache/typescript-patch-e441ed4208-c8766e84a4.zip/node_modules/typescript/",
+        ["patch:typescript@npm%3A4.3.5#builtin<compat/typescript>::version=4.3.5&hash=ddfc1b", {
+          "packageLocation": "./.yarn/cache/typescript-patch-aa8fabd973-7f0b8343f7.zip/node_modules/typescript/",
           "packageDependencies": [
-            ["typescript", "patch:typescript@npm%3A4.3.4#builtin<compat/typescript>::version=4.3.4&hash=ddfc1b"]
+            ["typescript", "patch:typescript@npm%3A4.3.5#builtin<compat/typescript>::version=4.3.5&hash=ddfc1b"]
           ],
           "linkType": "HARD",
         }]
@@ -6805,7 +6805,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["semantic-release", "npm:17.4.4"],
             ["ts-node", "virtual:d3ff7da28b9005e911b4365f390f7cbfe0a9f4a31c86ae06f5520a1627801fac94ebf6c135e20ef7c16537dda43a12b25dba51d6de72821f1e36d2c8453ce770#npm:10.0.0"],
             ["tslib", "npm:2.3.0"],
-            ["typescript", "patch:typescript@npm%3A4.3.4#builtin<compat/typescript>::version=4.3.4&hash=ddfc1b"]
+            ["typescript", "patch:typescript@npm%3A4.3.5#builtin<compat/typescript>::version=4.3.5&hash=ddfc1b"]
           ],
           "linkType": "SOFT",
         }]
