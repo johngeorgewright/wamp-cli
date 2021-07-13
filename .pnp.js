@@ -53,7 +53,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["commander", "npm:8.0.0"],
             ["cz-conventional-changelog", "npm:3.3.0"],
             ["husky", "npm:7.0.1"],
-            ["lint-staged", "npm:11.0.0"],
+            ["lint-staged", "npm:11.0.1"],
             ["prettier", "npm:2.3.2"],
             ["rimraf", "npm:3.0.2"],
             ["semantic-release", "npm:17.4.4"],
@@ -3908,10 +3908,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["lint-staged", [
-        ["npm:11.0.0", {
-          "packageLocation": "./.yarn/cache/lint-staged-npm-11.0.0-4b0eea214d-e5d9c38f46.zip/node_modules/lint-staged/",
+        ["npm:11.0.1", {
+          "packageLocation": "./.yarn/cache/lint-staged-npm-11.0.1-3785458429-2b90d18a40.zip/node_modules/lint-staged/",
           "packageDependencies": [
-            ["lint-staged", "npm:11.0.0"],
+            ["lint-staged", "npm:11.0.1"],
             ["chalk", "npm:4.1.1"],
             ["cli-truncate", "npm:2.1.0"],
             ["commander", "npm:7.2.0"],
@@ -3920,7 +3920,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["dedent", "npm:0.7.0"],
             ["enquirer", "npm:2.3.6"],
             ["execa", "npm:5.1.1"],
-            ["listr2", "virtual:4b0eea214d83e6e05cbe9674d69cb7f553c930fbd95cf27b023ecb1d9ff23bce32ab3afc880c65a5b91bd3abeccea112435944b80702879b8337532cf8f5b466#npm:3.10.0"],
+            ["listr2", "virtual:3785458429b40d080567944bbb839a24d7aa8b36873caeca7a235d93fae6d4f4ef5a046cb5dc4a42114a67f641a26cd1f0a9126f72125d2e751187951ee62a7e#npm:3.10.0"],
             ["log-symbols", "npm:4.1.0"],
             ["micromatch", "npm:4.0.4"],
             ["normalize-path", "npm:3.0.0"],
@@ -3939,10 +3939,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:4b0eea214d83e6e05cbe9674d69cb7f553c930fbd95cf27b023ecb1d9ff23bce32ab3afc880c65a5b91bd3abeccea112435944b80702879b8337532cf8f5b466#npm:3.10.0", {
-          "packageLocation": "./.yarn/$$virtual/listr2-virtual-212ff25606/0/cache/listr2-npm-3.10.0-b9e3e588d3-943a47f7fe.zip/node_modules/listr2/",
+        ["virtual:3785458429b40d080567944bbb839a24d7aa8b36873caeca7a235d93fae6d4f4ef5a046cb5dc4a42114a67f641a26cd1f0a9126f72125d2e751187951ee62a7e#npm:3.10.0", {
+          "packageLocation": "./.yarn/$$virtual/listr2-virtual-f127241e39/0/cache/listr2-npm-3.10.0-b9e3e588d3-943a47f7fe.zip/node_modules/listr2/",
           "packageDependencies": [
-            ["listr2", "virtual:4b0eea214d83e6e05cbe9674d69cb7f553c930fbd95cf27b023ecb1d9ff23bce32ab3afc880c65a5b91bd3abeccea112435944b80702879b8337532cf8f5b466#npm:3.10.0"],
+            ["listr2", "virtual:3785458429b40d080567944bbb839a24d7aa8b36873caeca7a235d93fae6d4f4ef5a046cb5dc4a42114a67f641a26cd1f0a9126f72125d2e751187951ee62a7e#npm:3.10.0"],
             ["@types/enquirer", null],
             ["cli-truncate", "npm:2.1.0"],
             ["colorette", "npm:1.2.2"],
@@ -6799,7 +6799,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["commander", "npm:8.0.0"],
             ["cz-conventional-changelog", "npm:3.3.0"],
             ["husky", "npm:7.0.1"],
-            ["lint-staged", "npm:11.0.0"],
+            ["lint-staged", "npm:11.0.1"],
             ["prettier", "npm:2.3.2"],
             ["rimraf", "npm:3.0.2"],
             ["semantic-release", "npm:17.4.4"],
