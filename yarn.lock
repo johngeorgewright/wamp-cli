@@ -3343,9 +3343,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:11.0.1":
-  version: 11.0.1
-  resolution: "lint-staged@npm:11.0.1"
+"lint-staged@npm:11.1.0":
+  version: 11.1.0
+  resolution: "lint-staged@npm:11.1.0"
   dependencies:
     chalk: ^4.1.1
     cli-truncate: ^2.1.0
@@ -3364,7 +3364,7 @@ __metadata:
     stringify-object: ^3.3.0
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: 2b90d18a40acb26c61df224844040843f4533b874cf5a5b6be9d7641d60c2799b4acf7e1f73cea4ab1c3630f26ab3c4553a42935850b6a7683e0500e5af7b3ec
+  checksum: 2f4a951fe24b6359ca32fbe5399fef55b83f3cbdfede478ba3bc6e9adc3230a64f6f33cf51b332cf165d01b464bd6683a64234e3730239c4a0391a789566a909
   languageName: node
   linkType: hard
 
@@ -5959,7 +5959,7 @@ typescript@4.3.5:
     commander: ^8.0.0
     cz-conventional-changelog: 3.3.0
     husky: 7.0.1
-    lint-staged: 11.0.1
+    lint-staged: 11.1.0
     prettier: 2.3.2
     rimraf: 3.0.2
     semantic-release: 17.4.4
