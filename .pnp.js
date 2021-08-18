@@ -46,7 +46,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@semantic-release/release-notes-generator", "virtual:6d1767245120040fdabcdc9810988a97ad82e4d1fee83a0f0346d35ca8e20bb50013f9cd36c8cfade6f6a6bbaeeb597ea5d1bf8d488c381f3dd6505f0f7b3763#npm:9.0.3"],
             ["@types/autobahn", "npm:18.10.1"],
             ["@types/cli-table", "npm:0.3.0"],
-            ["@types/node", "npm:14.17.9"],
+            ["@types/node", "npm:14.17.10"],
             ["autobahn", "npm:20.9.2"],
             ["cli-table", "npm:0.3.6"],
             ["colors", "npm:1.4.0"],
@@ -977,10 +977,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@types/node", [
-        ["npm:14.17.9", {
-          "packageLocation": "./.yarn/cache/@types-node-npm-14.17.9-a08e8ecb07-b1d145b37d.zip/node_modules/@types/node/",
+        ["npm:14.17.10", {
+          "packageLocation": "./.yarn/cache/@types-node-npm-14.17.10-f479af541c-3a0487d8c0.zip/node_modules/@types/node/",
           "packageDependencies": [
-            ["@types/node", "npm:14.17.9"]
+            ["@types/node", "npm:14.17.10"]
           ],
           "linkType": "HARD",
         }]
@@ -6480,7 +6480,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@tsconfig/node12", "npm:1.0.9"],
             ["@tsconfig/node14", "npm:1.0.1"],
             ["@tsconfig/node16", "npm:1.0.2"],
-            ["@types/node", "npm:14.17.9"],
+            ["@types/node", "npm:14.17.10"],
             ["@types/swc__core", null],
             ["@types/swc__wasm", null],
             ["@types/types__node", null],
@@ -6773,7 +6773,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@semantic-release/release-notes-generator", "virtual:6d1767245120040fdabcdc9810988a97ad82e4d1fee83a0f0346d35ca8e20bb50013f9cd36c8cfade6f6a6bbaeeb597ea5d1bf8d488c381f3dd6505f0f7b3763#npm:9.0.3"],
             ["@types/autobahn", "npm:18.10.1"],
             ["@types/cli-table", "npm:0.3.0"],
-            ["@types/node", "npm:14.17.9"],
+            ["@types/node", "npm:14.17.10"],
             ["autobahn", "npm:20.9.2"],
             ["cli-table", "npm:0.3.6"],
             ["colors", "npm:1.4.0"],
