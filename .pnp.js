@@ -52,7 +52,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["colors", "npm:1.4.0"],
             ["commander", "npm:8.0.0"],
             ["cz-conventional-changelog", "npm:3.3.0"],
-            ["husky", "npm:7.0.1"],
+            ["husky", "npm:7.0.2"],
             ["lint-staged", "npm:11.1.2"],
             ["prettier", "npm:2.3.2"],
             ["rimraf", "npm:3.0.2"],
@@ -3135,10 +3135,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["husky", [
-        ["npm:7.0.1", {
-          "packageLocation": "./.yarn/cache/husky-npm-7.0.1-b59747cd86-1f6d87cab4.zip/node_modules/husky/",
+        ["npm:7.0.2", {
+          "packageLocation": "./.yarn/cache/husky-npm-7.0.2-f2a671a0c6-3d1573d9ee.zip/node_modules/husky/",
           "packageDependencies": [
-            ["husky", "npm:7.0.1"]
+            ["husky", "npm:7.0.2"]
           ],
           "linkType": "HARD",
         }]
@@ -6779,7 +6779,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["colors", "npm:1.4.0"],
             ["commander", "npm:8.0.0"],
             ["cz-conventional-changelog", "npm:3.3.0"],
-            ["husky", "npm:7.0.1"],
+            ["husky", "npm:7.0.2"],
             ["lint-staged", "npm:11.1.2"],
             ["prettier", "npm:2.3.2"],
             ["rimraf", "npm:3.0.2"],

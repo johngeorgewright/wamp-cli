@@ -2670,12 +2670,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"husky@npm:7.0.1":
-  version: 7.0.1
-  resolution: "husky@npm:7.0.1"
+"husky@npm:7.0.2":
+  version: 7.0.2
+  resolution: "husky@npm:7.0.2"
   bin:
     husky: lib/bin.js
-  checksum: 1f6d87cab4339551615080664347b60168d81f3c3b84b9dc1f888068d3fe946d8b5513db5ea53bc086f235e6cc617b0aba903552e959596a49f2153ffac33cb4
+  checksum: 3d1573d9ee5406e864e8170912bfadffde211535277c49f7f5da1b543a7b8e6c8ac8bae9f9cdd6b5be21ef39bb2929ca62001a7c50841d93c36454659bd3e017
   languageName: node
   linkType: hard
 
@@ -5937,7 +5937,7 @@ typescript@4.3.5:
     colors: ^1.4.0
     commander: ^8.0.0
     cz-conventional-changelog: 3.3.0
-    husky: 7.0.1
+    husky: 7.0.2
     lint-staged: 11.1.2
     prettier: 2.3.2
     rimraf: 3.0.2
