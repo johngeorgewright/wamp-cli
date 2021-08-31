@@ -752,10 +752,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:14.17.12":
-  version: 14.17.12
-  resolution: "@types/node@npm:14.17.12"
-  checksum: 5fdad55934317c1cbaadbb57cf32e56bdda9f25bc3a3e3fef38579e2e4b96c15272918ec7631c26b8980756c57c4b29457ef33f10271a93843868ca01208e40e
+"@types/node@npm:14.17.13":
+  version: 14.17.13
+  resolution: "@types/node@npm:14.17.13"
+  checksum: fd38d5d47a66a5836bf7218cd3ed968bceef6520317cd7f737c2c48182cff624bebaa5c25f22522bee4f51debf4bafd1237cd05c6eb301e96ffdae0533825c00
   languageName: node
   linkType: hard
 
@@ -5931,7 +5931,7 @@ typescript@4.3.5:
     "@semantic-release/release-notes-generator": 9.0.3
     "@types/autobahn": 18.10.1
     "@types/cli-table": 0.3.0
-    "@types/node": 14.17.12
+    "@types/node": 14.17.13
     autobahn: ^20.7.2
     cli-table: ^0.3.1
     colors: ^1.4.0
