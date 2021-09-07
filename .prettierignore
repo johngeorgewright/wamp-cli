@@ -1,5 +1,5 @@
 dist
 *.log
-.pnp.js
+.pnp.cjs
 *.validator.ts
 .yarn/*

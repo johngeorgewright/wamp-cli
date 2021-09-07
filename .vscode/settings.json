@@ -1,5 +1,4 @@
 {
-  "jest.jestCommandLine": "yarn test",
   "search.exclude": {
     "**/.yarn": true,
     "**/.pnp.*": true
