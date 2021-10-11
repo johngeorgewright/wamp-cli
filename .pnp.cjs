@@ -55,7 +55,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prettier", "npm:2.4.1"],
             ["rimraf", "npm:3.0.2"],
             ["semantic-release", "npm:18.0.0"],
-            ["ts-node", "virtual:d3ff7da28b9005e911b4365f390f7cbfe0a9f4a31c86ae06f5520a1627801fac94ebf6c135e20ef7c16537dda43a12b25dba51d6de72821f1e36d2c8453ce770#npm:10.2.1"],
+            ["ts-node", "virtual:d3ff7da28b9005e911b4365f390f7cbfe0a9f4a31c86ae06f5520a1627801fac94ebf6c135e20ef7c16537dda43a12b25dba51d6de72821f1e36d2c8453ce770#npm:10.3.0"],
             ["tslib", "npm:2.3.1"],
             ["typescript", "patch:typescript@npm%3A4.4.3#~builtin<compat/typescript>::version=4.4.3&hash=32657b"]
           ],
@@ -334,10 +334,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@cspotcode/source-map-support", [
-        ["npm:0.6.1", {
-          "packageLocation": "./.yarn/cache/@cspotcode-source-map-support-npm-0.6.1-2e72b80534-da9fb4f640.zip/node_modules/@cspotcode/source-map-support/",
+        ["npm:0.7.0", {
+          "packageLocation": "./.yarn/cache/@cspotcode-source-map-support-npm-0.7.0-456c3ea2ce-9faddda775.zip/node_modules/@cspotcode/source-map-support/",
           "packageDependencies": [
-            ["@cspotcode/source-map-support", "npm:0.6.1"],
+            ["@cspotcode/source-map-support", "npm:0.7.0"],
             ["@cspotcode/source-map-consumer", "npm:0.8.0"]
           ],
           "linkType": "HARD",
@@ -6648,10 +6648,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["ts-node", [
-        ["npm:10.2.1", {
-          "packageLocation": "./.yarn/cache/ts-node-npm-10.2.1-18dc22b42d-f37d2827a5.zip/node_modules/ts-node/",
+        ["npm:10.3.0", {
+          "packageLocation": "./.yarn/cache/ts-node-npm-10.3.0-f2c1ae3d07-aea1b9eac4.zip/node_modules/ts-node/",
           "packageDependencies": [
-            ["ts-node", "npm:10.2.1"]
+            ["ts-node", "npm:10.3.0"]
           ],
           "linkType": "SOFT",
         }],
@@ -6681,11 +6681,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["virtual:d3ff7da28b9005e911b4365f390f7cbfe0a9f4a31c86ae06f5520a1627801fac94ebf6c135e20ef7c16537dda43a12b25dba51d6de72821f1e36d2c8453ce770#npm:10.2.1", {
-          "packageLocation": "./.yarn/__virtual__/ts-node-virtual-bba5acf935/0/cache/ts-node-npm-10.2.1-18dc22b42d-f37d2827a5.zip/node_modules/ts-node/",
+        ["virtual:d3ff7da28b9005e911b4365f390f7cbfe0a9f4a31c86ae06f5520a1627801fac94ebf6c135e20ef7c16537dda43a12b25dba51d6de72821f1e36d2c8453ce770#npm:10.3.0", {
+          "packageLocation": "./.yarn/__virtual__/ts-node-virtual-d83019e188/0/cache/ts-node-npm-10.3.0-f2c1ae3d07-aea1b9eac4.zip/node_modules/ts-node/",
           "packageDependencies": [
-            ["ts-node", "virtual:d3ff7da28b9005e911b4365f390f7cbfe0a9f4a31c86ae06f5520a1627801fac94ebf6c135e20ef7c16537dda43a12b25dba51d6de72821f1e36d2c8453ce770#npm:10.2.1"],
-            ["@cspotcode/source-map-support", "npm:0.6.1"],
+            ["ts-node", "virtual:d3ff7da28b9005e911b4365f390f7cbfe0a9f4a31c86ae06f5520a1627801fac94ebf6c135e20ef7c16537dda43a12b25dba51d6de72821f1e36d2c8453ce770#npm:10.3.0"],
+            ["@cspotcode/source-map-support", "npm:0.7.0"],
             ["@swc/core", null],
             ["@swc/wasm", null],
             ["@tsconfig/node10", "npm:1.0.8"],
@@ -6994,7 +6994,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prettier", "npm:2.4.1"],
             ["rimraf", "npm:3.0.2"],
             ["semantic-release", "npm:18.0.0"],
-            ["ts-node", "virtual:d3ff7da28b9005e911b4365f390f7cbfe0a9f4a31c86ae06f5520a1627801fac94ebf6c135e20ef7c16537dda43a12b25dba51d6de72821f1e36d2c8453ce770#npm:10.2.1"],
+            ["ts-node", "virtual:d3ff7da28b9005e911b4365f390f7cbfe0a9f4a31c86ae06f5520a1627801fac94ebf6c135e20ef7c16537dda43a12b25dba51d6de72821f1e36d2c8453ce770#npm:10.3.0"],
             ["tslib", "npm:2.3.1"],
             ["typescript", "patch:typescript@npm%3A4.4.3#~builtin<compat/typescript>::version=4.4.3&hash=32657b"]
           ],
