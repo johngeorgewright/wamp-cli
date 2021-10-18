@@ -730,7 +730,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/npm@npm:8.0.0, @semantic-release/npm@npm:^8.0.0":
+"@semantic-release/npm@npm:8.0.1":
+  version: 8.0.1
+  resolution: "@semantic-release/npm@npm:8.0.1"
+  dependencies:
+    "@semantic-release/error": ^3.0.0
+    aggregate-error: ^3.0.0
+    execa: ^5.0.0
+    fs-extra: ^10.0.0
+    lodash: ^4.17.15
+    nerf-dart: ^1.0.0
+    normalize-url: ^6.0.0
+    npm: ^7.0.0
+    rc: ^1.2.8
+    read-pkg: ^5.0.0
+    registry-auth-token: ^4.0.0
+    semver: ^7.1.2
+    tempy: ^1.0.0
+  peerDependencies:
+    semantic-release: ">=18.0.0"
+  checksum: b0499469e660ec901c061f56b127b41c10b4edece507ad705d3db13b24deee21cbd3d37566082e99dc0b13430f3262778ccc3b3b2363d4e750456aefab3c41fd
+  languageName: node
+  linkType: hard
+
+"@semantic-release/npm@npm:^8.0.0":
   version: 8.0.0
   resolution: "@semantic-release/npm@npm:8.0.0"
   dependencies:
@@ -6139,7 +6162,7 @@ typescript@^4.4.3:
     "@semantic-release/commit-analyzer": 9.0.1
     "@semantic-release/git": 10.0.0
     "@semantic-release/github": 8.0.1
-    "@semantic-release/npm": 8.0.0
+    "@semantic-release/npm": 8.0.1
     "@semantic-release/release-notes-generator": 10.0.2
     "@types/autobahn": 20.9.0
     "@types/cli-table": 0.3.0
