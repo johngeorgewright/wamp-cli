@@ -6319,7 +6319,7 @@ typescript@^4.4.3:
     tslib: ^2.3.1
     typescript: 4.5.2
   bin:
-    wampc: dist/program.mjs
+    wampc: dist/program.js
   languageName: unknown
   linkType: soft
 
