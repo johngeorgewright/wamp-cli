@@ -9,20 +9,20 @@
   "author": "John Wright <johngeorge.wright@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "yarn clean && yarn tsc && yarn rimraf 'dist/**/?(__tests__|__mocks__|__setup__|*.test.*)'",
+    "build": "yarn clean && tsc && rimraf 'dist/**/?(__tests__|__mocks__|__setup__|*.test.*)'",
     "clean": "rimraf dist",
-    "start": "yarn ts-node src/program"
+    "start": "yarn ts-node src/program.ts"
   },
   "dependencies": {
-    "autobahn": "^20.7.2",
-    "cli-table": "^0.3.1",
+    "autobahn": "^20.9.2",
+    "cli-table": "^0.3.9",
     "colors": "^1.4.0",
-    "commander": "^8.0.0",
-    "tslib": "^2.3.0"
+    "commander": "^8.3.0",
+    "tslib": "^2.3.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "14.1.0",
-    "@commitlint/config-conventional": "14.1.0",
+    "@commitlint/cli": "15.0.0",
+    "@commitlint/config-conventional": "15.0.0",
     "@semantic-release/commit-analyzer": "9.0.2",
     "@semantic-release/git": "10.0.1",
     "@semantic-release/github": "8.0.2",
@@ -38,7 +38,7 @@
     "rimraf": "3.0.2",
     "semantic-release": "18.0.1",
     "ts-node": "10.4.0",
-    "typescript": "4.4.4"
+    "typescript": "4.5.2"
   },
   "lint-staged": {
     "*.{md,json,js,jsx,ts,tsx,yml,yaml}": [
@@ -49,5 +49,6 @@
     "commitizen": {
       "path": "cz-conventional-changelog"
     }
-  }
+  },
+  "packageManager": "yarn@3.1.1"
 }
