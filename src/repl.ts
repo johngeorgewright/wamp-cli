@@ -1,7 +1,7 @@
 import Table from 'cli-table'
 import repl from 'repl'
 import 'colors'
-import { Connection, Session } from 'autobahn'
+import type { Connection, Session } from 'autobahn'
 
 export const start = (connection: Connection) => (session: Session) => {
   const variableTable = new Table({ head: ['Variable', 'Description'] })
