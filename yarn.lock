@@ -1712,6 +1712,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"commander@npm:^9.0.0":
+  version: 9.0.0
+  resolution: "commander@npm:9.0.0"
+  checksum: 15066e433d528315ded8261d16bc600d1f3c5671c75021e685ae67e4d62f7551243ff28411b28dc0a6f8b23c2a0f033550ec6f3e66bdf9d11a4fdc2d33dd9802
+  languageName: node
+  linkType: hard
+
 "commitizen@npm:^4.0.3":
   version: 4.2.4
   resolution: "commitizen@npm:4.2.4"
@@ -6281,7 +6288,7 @@ typescript@^4.4.3:
     autobahn: ^20.9.2
     cli-table: ^0.3.9
     colors: ^1.4.0
-    commander: ^8.3.0
+    commander: ^9.0.0
     cz-conventional-changelog: 3.3.0
     husky: 7.0.4
     lint-staged: 12.3.2
