@@ -46,7 +46,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/cli-table", "npm:0.3.0"],
             ["@types/node", "npm:16.11.21"],
             ["autobahn", "npm:20.9.2"],
-            ["cli-table", "npm:0.3.9"],
+            ["cli-table", "npm:0.3.11"],
             ["colors", "npm:1.4.0"],
             ["commander", "npm:9.0.0"],
             ["cz-conventional-changelog", "npm:3.3.0"],
@@ -1293,13 +1293,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["npm:5.0.1", {
-          "packageLocation": "./.yarn/cache/ansi-regex-npm-5.0.1-c963a48615-2aa4bb54ca.zip/node_modules/ansi-regex/",
-          "packageDependencies": [
-            ["ansi-regex", "npm:5.0.1"]
-          ],
-          "linkType": "HARD",
-        }],
         ["npm:6.0.1", {
           "packageLocation": "./.yarn/cache/ansi-regex-npm-6.0.1-8d663a607d-1ff8b7667c.zip/node_modules/ansi-regex/",
           "packageDependencies": [
@@ -1855,12 +1848,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["cli-table", [
-        ["npm:0.3.9", {
-          "packageLocation": "./.yarn/cache/cli-table-npm-0.3.9-fa4a05fc46-a2bbbae706.zip/node_modules/cli-table/",
+        ["npm:0.3.11", {
+          "packageLocation": "./.yarn/cache/cli-table-npm-0.3.11-f912789cff-59fb61f992.zip/node_modules/cli-table/",
           "packageDependencies": [
-            ["cli-table", "npm:0.3.9"],
-            ["colors", "npm:1.0.3"],
-            ["strip-ansi", "npm:6.0.1"]
+            ["cli-table", "npm:0.3.11"],
+            ["colors", "npm:1.0.3"]
           ],
           "linkType": "HARD",
         }]
@@ -6528,14 +6520,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["npm:6.0.1", {
-          "packageLocation": "./.yarn/cache/strip-ansi-npm-6.0.1-caddc7cb40-f3cd25890a.zip/node_modules/strip-ansi/",
-          "packageDependencies": [
-            ["strip-ansi", "npm:6.0.1"],
-            ["ansi-regex", "npm:5.0.1"]
-          ],
-          "linkType": "HARD",
-        }],
         ["npm:7.0.1", {
           "packageLocation": "./.yarn/cache/strip-ansi-npm-7.0.1-668c121204-257f78fa43.zip/node_modules/strip-ansi/",
           "packageDependencies": [
@@ -7153,7 +7137,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/cli-table", "npm:0.3.0"],
             ["@types/node", "npm:16.11.21"],
             ["autobahn", "npm:20.9.2"],
-            ["cli-table", "npm:0.3.9"],
+            ["cli-table", "npm:0.3.11"],
             ["colors", "npm:1.4.0"],
             ["commander", "npm:9.0.0"],
             ["cz-conventional-changelog", "npm:3.3.0"],
