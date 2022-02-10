@@ -864,10 +864,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:16.11.22":
-  version: 16.11.22
-  resolution: "@types/node@npm:16.11.22"
-  checksum: 9d879b9b0427e21a11e3162917553d5bc3c7d68d1ef4aa631512144801fe59bc3b4da5965e7ea7c2db99394487b543d4f2499b318e12392574802ac4f975b7c4
+"@types/node@npm:16.11.23":
+  version: 16.11.23
+  resolution: "@types/node@npm:16.11.23"
+  checksum: b2a366a54572086dcfcef7fb30167c021a068f9fba49401668daecb206e1c9f83f99af3ec02b05b54753d935ffd9881f8e11b57f5cf5b429fe035a636573950b
   languageName: node
   linkType: hard
 
@@ -6311,7 +6311,7 @@ typescript@^4.4.3:
     "@semantic-release/release-notes-generator": 10.0.3
     "@types/autobahn": 20.9.0
     "@types/cli-table": 0.3.0
-    "@types/node": 16.11.22
+    "@types/node": 16.11.23
     autobahn: ^20.9.2
     cli-table: ^0.3.11
     colors: ^1.4.0
