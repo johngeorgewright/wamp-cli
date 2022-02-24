@@ -42,7 +42,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@semantic-release/release-notes-generator", "virtual:d3ff7da28b9005e911b4365f390f7cbfe0a9f4a31c86ae06f5520a1627801fac94ebf6c135e20ef7c16537dda43a12b25dba51d6de72821f1e36d2c8453ce770#npm:10.0.3"],\
             ["@types/autobahn", "npm:20.9.0"],\
             ["@types/cli-table", "npm:0.3.0"],\
-            ["@types/node", "npm:16.11.25"],\
+            ["@types/node", "npm:16.11.26"],\
             ["autobahn", "npm:20.9.2"],\
             ["cli-table", "npm:0.3.11"],\
             ["colors", "npm:1.4.0"],\
@@ -1110,10 +1110,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/node", [\
-        ["npm:16.11.25", {\
-          "packageLocation": "./.yarn/cache/@types-node-npm-16.11.25-78cf927571-0b6e25a813.zip/node_modules/@types/node/",\
+        ["npm:16.11.26", {\
+          "packageLocation": "./.yarn/cache/@types-node-npm-16.11.26-6163d95b7d-57757caaba.zip/node_modules/@types/node/",\
           "packageDependencies": [\
-            ["@types/node", "npm:16.11.25"]\
+            ["@types/node", "npm:16.11.26"]\
           ],\
           "linkType": "HARD"\
         }],\
@@ -6808,7 +6808,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@tsconfig/node12", "npm:1.0.9"],\
             ["@tsconfig/node14", "npm:1.0.1"],\
             ["@tsconfig/node16", "npm:1.0.2"],\
-            ["@types/node", "npm:16.11.25"],\
+            ["@types/node", "npm:16.11.26"],\
             ["@types/swc__core", null],\
             ["@types/swc__wasm", null],\
             ["@types/typescript", null],\
@@ -7158,7 +7158,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@semantic-release/release-notes-generator", "virtual:d3ff7da28b9005e911b4365f390f7cbfe0a9f4a31c86ae06f5520a1627801fac94ebf6c135e20ef7c16537dda43a12b25dba51d6de72821f1e36d2c8453ce770#npm:10.0.3"],\
             ["@types/autobahn", "npm:20.9.0"],\
             ["@types/cli-table", "npm:0.3.0"],\
-            ["@types/node", "npm:16.11.25"],\
+            ["@types/node", "npm:16.11.26"],\
             ["autobahn", "npm:20.9.2"],\
             ["cli-table", "npm:0.3.11"],\
             ["colors", "npm:1.4.0"],\
