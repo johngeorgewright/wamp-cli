@@ -33,7 +33,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["@commitlint/cli", "npm:17.0.0"],\
+            ["@commitlint/cli", "npm:17.0.1"],\
             ["@commitlint/config-conventional", "npm:17.0.0"],\
             ["@semantic-release/commit-analyzer", "virtual:8e700fd456d50f6da37430593bc9d2afe809721c9f048ed4b4c5f47fb84331a2a853c382bf79882f82361ba0770e782b4e1fbd195a65bff8ad3dbec6b0ec0e22#npm:9.0.2"],\
             ["@semantic-release/git", "virtual:d3ff7da28b9005e911b4365f390f7cbfe0a9f4a31c86ae06f5520a1627801fac94ebf6c135e20ef7c16537dda43a12b25dba51d6de72821f1e36d2c8453ce770#npm:10.0.1"],\
@@ -92,15 +92,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@commitlint/cli", [\
-        ["npm:17.0.0", {\
-          "packageLocation": "./.yarn/cache/@commitlint-cli-npm-17.0.0-d282c401da-ac7159458e.zip/node_modules/@commitlint/cli/",\
+        ["npm:17.0.1", {\
+          "packageLocation": "./.yarn/cache/@commitlint-cli-npm-17.0.1-f3d480a3b9-7a69ce6eeb.zip/node_modules/@commitlint/cli/",\
           "packageDependencies": [\
-            ["@commitlint/cli", "npm:17.0.0"],\
+            ["@commitlint/cli", "npm:17.0.1"],\
             ["@commitlint/format", "npm:17.0.0"],\
             ["@commitlint/lint", "npm:17.0.0"],\
             ["@commitlint/load", "npm:17.0.0"],\
             ["@commitlint/read", "npm:17.0.0"],\
             ["@commitlint/types", "npm:17.0.0"],\
+            ["execa", "npm:5.1.1"],\
             ["lodash", "npm:4.17.21"],\
             ["resolve-from", "npm:5.0.0"],\
             ["resolve-global", "npm:1.0.0"],\
@@ -7245,7 +7246,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["wamp-cli", "workspace:."],\
-            ["@commitlint/cli", "npm:17.0.0"],\
+            ["@commitlint/cli", "npm:17.0.1"],\
             ["@commitlint/config-conventional", "npm:17.0.0"],\
             ["@semantic-release/commit-analyzer", "virtual:8e700fd456d50f6da37430593bc9d2afe809721c9f048ed4b4c5f47fb84331a2a853c382bf79882f82361ba0770e782b4e1fbd195a65bff8ad3dbec6b0ec0e22#npm:9.0.2"],\
             ["@semantic-release/git", "virtual:d3ff7da28b9005e911b4365f390f7cbfe0a9f4a31c86ae06f5520a1627801fac94ebf6c135e20ef7c16537dda43a12b25dba51d6de72821f1e36d2c8453ce770#npm:10.0.1"],\
