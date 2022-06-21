@@ -899,12 +899,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/autobahn@npm:20.9.0":
-  version: 20.9.0
-  resolution: "@types/autobahn@npm:20.9.0"
+"@types/autobahn@npm:20.9.1":
+  version: 20.9.1
+  resolution: "@types/autobahn@npm:20.9.1"
   dependencies:
     "@types/when": "*"
-  checksum: eee157f5b1b32d0713cce00d637b52d05b142eb3c18b8a9e0e62928975f6263d1a77e368fb300cd5757340227ffebdce4fb9b05eeecd4b633750c7e8ad2f37a4
+  checksum: a5dffbab3ea46d9163eccb43a3daa74784d0f95a2cbf91086d04ff9b46f9bdc967e5e741d3ccb607b42ea343aa89f5747687c0eea368c8a624485b2c60368fa9
   languageName: node
   linkType: hard
 
@@ -6422,7 +6422,7 @@ resolve@^1.10.0:
     "@semantic-release/github": 8.0.4
     "@semantic-release/npm": 9.0.1
     "@semantic-release/release-notes-generator": 10.0.3
-    "@types/autobahn": 20.9.0
+    "@types/autobahn": 20.9.1
     "@types/cli-table": 0.3.0
     "@types/node": 16.11.41
     autobahn: ^20.9.2
