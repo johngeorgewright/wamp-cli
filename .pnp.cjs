@@ -40,7 +40,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@semantic-release/github", "virtual:d3ff7da28b9005e911b4365f390f7cbfe0a9f4a31c86ae06f5520a1627801fac94ebf6c135e20ef7c16537dda43a12b25dba51d6de72821f1e36d2c8453ce770#npm:8.0.4"],\
             ["@semantic-release/npm", "virtual:d3ff7da28b9005e911b4365f390f7cbfe0a9f4a31c86ae06f5520a1627801fac94ebf6c135e20ef7c16537dda43a12b25dba51d6de72821f1e36d2c8453ce770#npm:9.0.1"],\
             ["@semantic-release/release-notes-generator", "virtual:d3ff7da28b9005e911b4365f390f7cbfe0a9f4a31c86ae06f5520a1627801fac94ebf6c135e20ef7c16537dda43a12b25dba51d6de72821f1e36d2c8453ce770#npm:10.0.3"],\
-            ["@types/autobahn", "npm:20.9.0"],\
+            ["@types/autobahn", "npm:20.9.1"],\
             ["@types/cli-table", "npm:0.3.0"],\
             ["@types/node", "npm:16.11.41"],\
             ["autobahn", "npm:20.9.2"],\
@@ -1153,10 +1153,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/autobahn", [\
-        ["npm:20.9.0", {\
-          "packageLocation": "./.yarn/cache/@types-autobahn-npm-20.9.0-05cfa66f37-eee157f5b1.zip/node_modules/@types/autobahn/",\
+        ["npm:20.9.1", {\
+          "packageLocation": "./.yarn/cache/@types-autobahn-npm-20.9.1-b3ddbe6244-a5dffbab3e.zip/node_modules/@types/autobahn/",\
           "packageDependencies": [\
-            ["@types/autobahn", "npm:20.9.0"],\
+            ["@types/autobahn", "npm:20.9.1"],\
             ["@types/when", "npm:2.4.34"]\
           ],\
           "linkType": "HARD"\
@@ -7269,7 +7269,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@semantic-release/github", "virtual:d3ff7da28b9005e911b4365f390f7cbfe0a9f4a31c86ae06f5520a1627801fac94ebf6c135e20ef7c16537dda43a12b25dba51d6de72821f1e36d2c8453ce770#npm:8.0.4"],\
             ["@semantic-release/npm", "virtual:d3ff7da28b9005e911b4365f390f7cbfe0a9f4a31c86ae06f5520a1627801fac94ebf6c135e20ef7c16537dda43a12b25dba51d6de72821f1e36d2c8453ce770#npm:9.0.1"],\
             ["@semantic-release/release-notes-generator", "virtual:d3ff7da28b9005e911b4365f390f7cbfe0a9f4a31c86ae06f5520a1627801fac94ebf6c135e20ef7c16537dda43a12b25dba51d6de72821f1e36d2c8453ce770#npm:10.0.3"],\
-            ["@types/autobahn", "npm:20.9.0"],\
+            ["@types/autobahn", "npm:20.9.1"],\
             ["@types/cli-table", "npm:0.3.0"],\
             ["@types/node", "npm:16.11.41"],\
             ["autobahn", "npm:20.9.2"],\
