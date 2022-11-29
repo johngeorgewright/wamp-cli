@@ -32,7 +32,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@commitlint/config-conventional", "npm:17.3.0"],\
             ["@semantic-release/commit-analyzer", "virtual:93ff9e54e7e85ba03f8777529e2e31fd687b3208f0bfd29f9526626fccebedcf25fd704ae938492bcd5692d38a16927bd020804d445cde5885dc772e9e1e1ff9#npm:9.0.2"],\
             ["@semantic-release/git", "virtual:d3ff7da28b9005e911b4365f390f7cbfe0a9f4a31c86ae06f5520a1627801fac94ebf6c135e20ef7c16537dda43a12b25dba51d6de72821f1e36d2c8453ce770#npm:10.0.1"],\
-            ["@semantic-release/github", "virtual:d3ff7da28b9005e911b4365f390f7cbfe0a9f4a31c86ae06f5520a1627801fac94ebf6c135e20ef7c16537dda43a12b25dba51d6de72821f1e36d2c8453ce770#npm:8.0.6"],\
+            ["@semantic-release/github", "virtual:d3ff7da28b9005e911b4365f390f7cbfe0a9f4a31c86ae06f5520a1627801fac94ebf6c135e20ef7c16537dda43a12b25dba51d6de72821f1e36d2c8453ce770#npm:8.0.7"],\
             ["@semantic-release/npm", "virtual:d3ff7da28b9005e911b4365f390f7cbfe0a9f4a31c86ae06f5520a1627801fac94ebf6c135e20ef7c16537dda43a12b25dba51d6de72821f1e36d2c8453ce770#npm:9.0.1"],\
             ["@semantic-release/release-notes-generator", "virtual:d3ff7da28b9005e911b4365f390f7cbfe0a9f4a31c86ae06f5520a1627801fac94ebf6c135e20ef7c16537dda43a12b25dba51d6de72821f1e36d2c8453ce770#npm:10.0.3"],\
             ["@types/autobahn", "npm:20.9.1"],\
@@ -1017,10 +1017,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["npm:8.0.6", {\
-          "packageLocation": "./.yarn/cache/@semantic-release-github-npm-8.0.6-bda442b6b3-744112e467.zip/node_modules/@semantic-release/github/",\
+        ["npm:8.0.7", {\
+          "packageLocation": "./.yarn/cache/@semantic-release-github-npm-8.0.7-9bab831a20-7644048e0e.zip/node_modules/@semantic-release/github/",\
           "packageDependencies": [\
-            ["@semantic-release/github", "npm:8.0.6"]\
+            ["@semantic-release/github", "npm:8.0.7"]\
           ],\
           "linkType": "SOFT"\
         }],\
@@ -1053,10 +1053,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["virtual:d3ff7da28b9005e911b4365f390f7cbfe0a9f4a31c86ae06f5520a1627801fac94ebf6c135e20ef7c16537dda43a12b25dba51d6de72821f1e36d2c8453ce770#npm:8.0.6", {\
-          "packageLocation": "./.yarn/__virtual__/@semantic-release-github-virtual-138bb49c77/0/cache/@semantic-release-github-npm-8.0.6-bda442b6b3-744112e467.zip/node_modules/@semantic-release/github/",\
+        ["virtual:d3ff7da28b9005e911b4365f390f7cbfe0a9f4a31c86ae06f5520a1627801fac94ebf6c135e20ef7c16537dda43a12b25dba51d6de72821f1e36d2c8453ce770#npm:8.0.7", {\
+          "packageLocation": "./.yarn/__virtual__/@semantic-release-github-virtual-ee1e44766a/0/cache/@semantic-release-github-npm-8.0.7-9bab831a20-7644048e0e.zip/node_modules/@semantic-release/github/",\
           "packageDependencies": [\
-            ["@semantic-release/github", "virtual:d3ff7da28b9005e911b4365f390f7cbfe0a9f4a31c86ae06f5520a1627801fac94ebf6c135e20ef7c16537dda43a12b25dba51d6de72821f1e36d2c8453ce770#npm:8.0.6"],\
+            ["@semantic-release/github", "virtual:d3ff7da28b9005e911b4365f390f7cbfe0a9f4a31c86ae06f5520a1627801fac94ebf6c135e20ef7c16537dda43a12b25dba51d6de72821f1e36d2c8453ce770#npm:8.0.7"],\
             ["@octokit/rest", "npm:19.0.1"],\
             ["@semantic-release/error", "npm:3.0.0"],\
             ["@types/semantic-release", null],\
@@ -1064,7 +1064,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["bottleneck", "npm:2.19.5"],\
             ["debug", "virtual:4d5b41b4c144bc0f7c0e4c4c2164d0bc5d527811557a2fd7f2ec3307b1cf1ca97f42a730a90b32caada41091b3e922a1e5a2d8c6ff2841b6857305532c68aca8#npm:4.3.2"],\
             ["dir-glob", "npm:3.0.1"],\
-            ["fs-extra", "npm:10.0.0"],\
+            ["fs-extra", "npm:11.0.0"],\
             ["globby", "npm:11.0.4"],\
             ["http-proxy-agent", "npm:5.0.0"],\
             ["https-proxy-agent", "npm:5.0.0"],\
@@ -3202,6 +3202,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/fs-extra-npm-10.0.0-4f8c704115-5285a3d8f3.zip/node_modules/fs-extra/",\
           "packageDependencies": [\
             ["fs-extra", "npm:10.0.0"],\
+            ["graceful-fs", "npm:4.2.8"],\
+            ["jsonfile", "npm:6.1.0"],\
+            ["universalify", "npm:2.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:11.0.0", {\
+          "packageLocation": "./.yarn/cache/fs-extra-npm-11.0.0-77ea9449d0-fd29fc5b4f.zip/node_modules/fs-extra/",\
+          "packageDependencies": [\
+            ["fs-extra", "npm:11.0.0"],\
             ["graceful-fs", "npm:4.2.8"],\
             ["jsonfile", "npm:6.1.0"],\
             ["universalify", "npm:2.0.0"]\
@@ -7579,7 +7589,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@commitlint/config-conventional", "npm:17.3.0"],\
             ["@semantic-release/commit-analyzer", "virtual:93ff9e54e7e85ba03f8777529e2e31fd687b3208f0bfd29f9526626fccebedcf25fd704ae938492bcd5692d38a16927bd020804d445cde5885dc772e9e1e1ff9#npm:9.0.2"],\
             ["@semantic-release/git", "virtual:d3ff7da28b9005e911b4365f390f7cbfe0a9f4a31c86ae06f5520a1627801fac94ebf6c135e20ef7c16537dda43a12b25dba51d6de72821f1e36d2c8453ce770#npm:10.0.1"],\
-            ["@semantic-release/github", "virtual:d3ff7da28b9005e911b4365f390f7cbfe0a9f4a31c86ae06f5520a1627801fac94ebf6c135e20ef7c16537dda43a12b25dba51d6de72821f1e36d2c8453ce770#npm:8.0.6"],\
+            ["@semantic-release/github", "virtual:d3ff7da28b9005e911b4365f390f7cbfe0a9f4a31c86ae06f5520a1627801fac94ebf6c135e20ef7c16537dda43a12b25dba51d6de72821f1e36d2c8453ce770#npm:8.0.7"],\
             ["@semantic-release/npm", "virtual:d3ff7da28b9005e911b4365f390f7cbfe0a9f4a31c86ae06f5520a1627801fac94ebf6c135e20ef7c16537dda43a12b25dba51d6de72821f1e36d2c8453ce770#npm:9.0.1"],\
             ["@semantic-release/release-notes-generator", "virtual:d3ff7da28b9005e911b4365f390f7cbfe0a9f4a31c86ae06f5520a1627801fac94ebf6c135e20ef7c16537dda43a12b25dba51d6de72821f1e36d2c8453ce770#npm:10.0.3"],\
             ["@types/autobahn", "npm:20.9.1"],\
