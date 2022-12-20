@@ -38,7 +38,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/autobahn", "npm:20.9.1"],\
             ["@types/cli-table", "npm:0.3.1"],\
             ["@types/node", "npm:18.11.17"],\
-            ["autobahn", "npm:20.9.2"],\
+            ["autobahn", "npm:22.11.1"],\
             ["cli-table", "npm:0.3.11"],\
             ["colors", "npm:1.4.0"],\
             ["commander", "npm:9.4.1"],\
@@ -1708,10 +1708,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["autobahn", [\
-        ["npm:20.9.2", {\
-          "packageLocation": "./.yarn/cache/autobahn-npm-20.9.2-3f2d3b89b8-063ee127a2.zip/node_modules/autobahn/",\
+        ["npm:22.11.1", {\
+          "packageLocation": "./.yarn/cache/autobahn-npm-22.11.1-53f496ab78-224f79bb05.zip/node_modules/autobahn/",\
           "packageDependencies": [\
-            ["autobahn", "npm:20.9.2"],\
+            ["autobahn", "npm:22.11.1"],\
             ["bufferutil", "npm:4.0.3"],\
             ["cbor", "npm:8.0.0"],\
             ["crypto-js", "npm:4.1.1"],\
@@ -1719,7 +1719,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["tweetnacl", "npm:1.0.3"],\
             ["utf-8-validate", "npm:5.0.5"],\
             ["when", "npm:3.7.8"],\
-            ["ws", "virtual:3f2d3b89b88455d7203c7380271a62f5b647fe458ed280bc74d406360edf1ecfaadac55d8494a0d0c3a6b7a1e0c5b17c740bd2234f2cd187a26beab6a69acb98#npm:8.2.1"]\
+            ["ws", "virtual:53f496ab78a17e58f49edcc684f2aaa460c002639d0fd63900a31118b45a2123c7a775e168655df2bb105dd2b8ce53990e1b98efea0ae6b0e8814bc280e234aa#npm:7.5.9"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -7432,7 +7432,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/autobahn", "npm:20.9.1"],\
             ["@types/cli-table", "npm:0.3.1"],\
             ["@types/node", "npm:18.11.17"],\
-            ["autobahn", "npm:20.9.2"],\
+            ["autobahn", "npm:22.11.1"],\
             ["cli-table", "npm:0.3.11"],\
             ["colors", "npm:1.4.0"],\
             ["commander", "npm:9.4.1"],\
@@ -7585,17 +7585,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["ws", [\
-        ["npm:8.2.1", {\
-          "packageLocation": "./.yarn/cache/ws-npm-8.2.1-93dae97f6f-22906903c7.zip/node_modules/ws/",\
+        ["npm:7.5.9", {\
+          "packageLocation": "./.yarn/cache/ws-npm-7.5.9-26f12a5ed6-c3c100a181.zip/node_modules/ws/",\
           "packageDependencies": [\
-            ["ws", "npm:8.2.1"]\
+            ["ws", "npm:7.5.9"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:3f2d3b89b88455d7203c7380271a62f5b647fe458ed280bc74d406360edf1ecfaadac55d8494a0d0c3a6b7a1e0c5b17c740bd2234f2cd187a26beab6a69acb98#npm:8.2.1", {\
-          "packageLocation": "./.yarn/__virtual__/ws-virtual-af7503b1e9/0/cache/ws-npm-8.2.1-93dae97f6f-22906903c7.zip/node_modules/ws/",\
+        ["virtual:53f496ab78a17e58f49edcc684f2aaa460c002639d0fd63900a31118b45a2123c7a775e168655df2bb105dd2b8ce53990e1b98efea0ae6b0e8814bc280e234aa#npm:7.5.9", {\
+          "packageLocation": "./.yarn/__virtual__/ws-virtual-0869f01ccf/0/cache/ws-npm-7.5.9-26f12a5ed6-c3c100a181.zip/node_modules/ws/",\
           "packageDependencies": [\
-            ["ws", "virtual:3f2d3b89b88455d7203c7380271a62f5b647fe458ed280bc74d406360edf1ecfaadac55d8494a0d0c3a6b7a1e0c5b17c740bd2234f2cd187a26beab6a69acb98#npm:8.2.1"],\
+            ["ws", "virtual:53f496ab78a17e58f49edcc684f2aaa460c002639d0fd63900a31118b45a2123c7a775e168655df2bb105dd2b8ce53990e1b98efea0ae6b0e8814bc280e234aa#npm:7.5.9"],\
             ["@types/bufferutil", null],\
             ["@types/utf-8-validate", null],\
             ["bufferutil", "npm:4.0.3"],\

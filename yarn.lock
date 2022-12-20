@@ -1390,9 +1390,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"autobahn@npm:^20.9.2":
-  version: 20.9.2
-  resolution: "autobahn@npm:20.9.2"
+"autobahn@npm:^22.0.0":
+  version: 22.11.1
+  resolution: "autobahn@npm:22.11.1"
   dependencies:
     bufferutil: ">= 1.2.1"
     cbor: ">= 3.0.0"
@@ -1401,7 +1401,7 @@ __metadata:
     tweetnacl: ">= 0.14.3"
     utf-8-validate: ">= 1.2.1"
     when: ">= 3.7.7"
-    ws: ">= 1.1.4"
+    ws: 1.1.4 - 7
   dependenciesMeta:
     bufferutil:
       optional: true
@@ -1409,7 +1409,7 @@ __metadata:
       optional: true
     when:
       optional: true
-  checksum: 063ee127a2c0b65c179a9e32eee83a0216c46071124f5cbbbf81de59590657a34d3afbe9dff892a64ea2522df0e082aaa9e21a05290f071a38f586d5d1d71cc9
+  checksum: 224f79bb059c1ac03f55df698b792119058d72ae7f1de74cd31c977e6686410ae2666f914011c675134a579f69b338c3897e13ee303eaf2b0cc7a85273d24e0d
   languageName: node
   linkType: hard
 
@@ -6587,7 +6587,7 @@ resolve@^1.10.0:
     "@types/autobahn": 20.9.1
     "@types/cli-table": 0.3.1
     "@types/node": 18.11.17
-    autobahn: ^20.9.2
+    autobahn: ^22.0.0
     cli-table: ^0.3.11
     colors: ^1.4.0
     commander: ^9.4.1
@@ -6731,9 +6731,9 @@ resolve@^1.10.0:
   languageName: node
   linkType: hard
 
-"ws@npm:>= 1.1.4":
-  version: 8.2.1
-  resolution: "ws@npm:8.2.1"
+"ws@npm:1.1.4 - 7":
+  version: 7.5.9
+  resolution: "ws@npm:7.5.9"
   peerDependencies:
     bufferutil: ^4.0.1
     utf-8-validate: ^5.0.2
@@ -6742,7 +6742,7 @@ resolve@^1.10.0:
       optional: true
     utf-8-validate:
       optional: true
-  checksum: 22906903c7952790a911627f99e3419d8f251a6a540d9ba4f334a7e0865d7ea7026d8ad23829c3c0f2843a9f15bdb91c646e7f8853a5a5ba25a57dea2cf7d416
+  checksum: c3c100a181b731f40b7f2fddf004aa023f79d64f489706a28bc23ff88e87f6a64b3c6651fbec3a84a53960b75159574d7a7385709847a62ddb7ad6af76f49138
   languageName: node
   linkType: hard
 
