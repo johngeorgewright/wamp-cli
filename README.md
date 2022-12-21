@@ -16,7 +16,7 @@ Usage
 # URL -> REALM
 $> wampc ws://localhost:9000/ws public
 
-Connecting to ws://localhost:9000/ws internal
+Connecting to ws://localhost:9000/ws public
 
 Connected
 
