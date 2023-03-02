@@ -17,7 +17,7 @@
     "autobahn": "^22.0.0",
     "cli-table": "^0.3.11",
     "colors": "^1.4.0",
-    "commander": "^9.4.1",
+    "commander": "^10.0.0",
     "tslib": "^2.4.1"
   },
   "devDependencies": {
