@@ -46,7 +46,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:8.0.3"],\
             ["lint-staged", "npm:13.2.0"],\
             ["prettier", "npm:2.8.6"],\
-            ["rimraf", "npm:4.4.0"],\
+            ["rimraf", "npm:4.4.1"],\
             ["semantic-release", "npm:20.1.3"],\
             ["ts-node", "virtual:d3ff7da28b9005e911b4365f390f7cbfe0a9f4a31c86ae06f5520a1627801fac94ebf6c135e20ef7c16537dda43a12b25dba51d6de72821f1e36d2c8453ce770#npm:10.9.1"],\
             ["tslib", "npm:2.5.0"],\
@@ -6507,10 +6507,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:4.4.0", {\
-          "packageLocation": "./.yarn/cache/rimraf-npm-4.4.0-7bda7f3851-0cedaf9d13.zip/node_modules/rimraf/",\
+        ["npm:4.4.1", {\
+          "packageLocation": "./.yarn/cache/rimraf-npm-4.4.1-80b02e041a-b786adc026.zip/node_modules/rimraf/",\
           "packageDependencies": [\
-            ["rimraf", "npm:4.4.0"],\
+            ["rimraf", "npm:4.4.1"],\
             ["glob", "npm:9.2.1"]\
           ],\
           "linkType": "HARD"\
@@ -7675,7 +7675,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:8.0.3"],\
             ["lint-staged", "npm:13.2.0"],\
             ["prettier", "npm:2.8.6"],\
-            ["rimraf", "npm:4.4.0"],\
+            ["rimraf", "npm:4.4.1"],\
             ["semantic-release", "npm:20.1.3"],\
             ["ts-node", "virtual:d3ff7da28b9005e911b4365f390f7cbfe0a9f4a31c86ae06f5520a1627801fac94ebf6c135e20ef7c16537dda43a12b25dba51d6de72821f1e36d2c8453ce770#npm:10.9.1"],\
             ["tslib", "npm:2.5.0"],\
