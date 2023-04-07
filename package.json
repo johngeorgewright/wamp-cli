@@ -33,7 +33,7 @@
     "@types/node": "18.15.11",
     "cz-conventional-changelog": "3.3.0",
     "husky": "8.0.3",
-    "lint-staged": "13.2.0",
+    "lint-staged": "13.2.1",
     "prettier": "2.8.7",
     "rimraf": "4.4.1",
     "semantic-release": "20.1.3",
