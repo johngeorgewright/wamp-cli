@@ -41,7 +41,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["autobahn", "npm:22.11.1"],\
             ["cli-table", "npm:0.3.11"],\
             ["colors", "npm:1.4.0"],\
-            ["commander", "npm:10.0.0"],\
+            ["commander", "npm:10.0.1"],\
             ["cz-conventional-changelog", "npm:3.3.0"],\
             ["husky", "npm:8.0.3"],\
             ["lint-staged", "npm:13.2.1"],\
@@ -2297,10 +2297,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["commander", [\
-        ["npm:10.0.0", {\
-          "packageLocation": "./.yarn/cache/commander-npm-10.0.0-2e6f452447-9f6495651f.zip/node_modules/commander/",\
+        ["npm:10.0.1", {\
+          "packageLocation": "./.yarn/cache/commander-npm-10.0.1-f17613b72b-436901d64a.zip/node_modules/commander/",\
           "packageDependencies": [\
-            ["commander", "npm:10.0.0"]\
+            ["commander", "npm:10.0.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -4400,7 +4400,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["lint-staged", "npm:13.2.1"],\
             ["chalk", "npm:5.2.0"],\
             ["cli-truncate", "npm:3.1.0"],\
-            ["commander", "npm:10.0.0"],\
+            ["commander", "npm:10.0.1"],\
             ["debug", "virtual:90c071d0ba6a85e8ad58e368801a99789ac5c666c52d4902e222a8db8041e04ecea5c1922dd8ce209aeb317b8bf7c3a1be54152f9b63be323e1fd044b0a9d869#npm:4.3.4"],\
             ["execa", "npm:7.0.0"],\
             ["lilconfig", "npm:2.1.0"],\
@@ -7670,7 +7670,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["autobahn", "npm:22.11.1"],\
             ["cli-table", "npm:0.3.11"],\
             ["colors", "npm:1.4.0"],\
-            ["commander", "npm:10.0.0"],\
+            ["commander", "npm:10.0.1"],\
             ["cz-conventional-changelog", "npm:3.3.0"],\
             ["husky", "npm:8.0.3"],\
             ["lint-staged", "npm:13.2.1"],\
