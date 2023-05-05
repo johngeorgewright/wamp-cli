@@ -30,7 +30,7 @@
     "@semantic-release/release-notes-generator": "10.0.3",
     "@types/autobahn": "20.9.1",
     "@types/cli-table": "0.3.1",
-    "@types/node": "18.16.3",
+    "@types/node": "18.16.4",
     "cz-conventional-changelog": "3.3.0",
     "husky": "8.0.3",
     "lint-staged": "13.2.2",
