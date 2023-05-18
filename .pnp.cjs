@@ -49,7 +49,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["rimraf", "npm:4.4.1"],\
             ["semantic-release", "npm:20.1.3"],\
             ["ts-node", "virtual:d3ff7da28b9005e911b4365f390f7cbfe0a9f4a31c86ae06f5520a1627801fac94ebf6c135e20ef7c16537dda43a12b25dba51d6de72821f1e36d2c8453ce770#npm:10.9.1"],\
-            ["tslib", "npm:2.5.0"],\
+            ["tslib", "npm:2.5.1"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=289587"]\
           ],\
           "linkType": "SOFT"\
@@ -6548,7 +6548,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/rxjs-npm-7.8.0-722f1c7172-61b4d4fd32.zip/node_modules/rxjs/",\
           "packageDependencies": [\
             ["rxjs", "npm:7.8.0"],\
-            ["tslib", "npm:2.3.1"]\
+            ["tslib", "npm:2.5.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -7411,17 +7411,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:2.3.1", {\
-          "packageLocation": "./.yarn/cache/tslib-npm-2.3.1-0e21e18015-de17a98d46.zip/node_modules/tslib/",\
+        ["npm:2.5.1", {\
+          "packageLocation": "./.yarn/cache/tslib-npm-2.5.1-71910bf222-535e41e956.zip/node_modules/tslib/",\
           "packageDependencies": [\
-            ["tslib", "npm:2.3.1"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
-        ["npm:2.5.0", {\
-          "packageLocation": "./.yarn/cache/tslib-npm-2.5.0-bb364efebd-ae3ed5f9ce.zip/node_modules/tslib/",\
-          "packageDependencies": [\
-            ["tslib", "npm:2.5.0"]\
+            ["tslib", "npm:2.5.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -7686,7 +7679,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["rimraf", "npm:4.4.1"],\
             ["semantic-release", "npm:20.1.3"],\
             ["ts-node", "virtual:d3ff7da28b9005e911b4365f390f7cbfe0a9f4a31c86ae06f5520a1627801fac94ebf6c135e20ef7c16537dda43a12b25dba51d6de72821f1e36d2c8453ce770#npm:10.9.1"],\
-            ["tslib", "npm:2.5.0"],\
+            ["tslib", "npm:2.5.1"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=289587"]\
           ],\
           "linkType": "SOFT"\
