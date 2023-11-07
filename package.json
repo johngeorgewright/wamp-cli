@@ -28,7 +28,7 @@
     "@semantic-release/github": "9.0.2",
     "@semantic-release/npm": "10.0.3",
     "@semantic-release/release-notes-generator": "11.0.3",
-    "@types/autobahn": "20.9.1",
+    "@types/autobahn": "20.9.4",
     "@types/cli-table": "0.3.1",
     "@types/node": "20.2.5",
     "cz-conventional-changelog": "3.3.0",
