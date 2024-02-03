@@ -36,7 +36,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@semantic-release/npm", "virtual:66816de0515c212190491e2a34cc6e91ba2acdd48374085e0f9e2f9c01b7b1f3994f9786e0b52e680dcc3338caa7d097fba3f4044ae0a0582197792245433e6e#npm:10.0.3"],\
             ["@semantic-release/release-notes-generator", "virtual:66816de0515c212190491e2a34cc6e91ba2acdd48374085e0f9e2f9c01b7b1f3994f9786e0b52e680dcc3338caa7d097fba3f4044ae0a0582197792245433e6e#npm:11.0.3"],\
             ["@types/autobahn", "npm:20.9.1"],\
-            ["@types/cli-table", "npm:0.3.1"],\
+            ["@types/cli-table", "npm:0.3.4"],\
             ["@types/node", "npm:20.2.5"],\
             ["autobahn", "npm:22.11.1"],\
             ["cli-table", "npm:0.3.11"],\
@@ -1241,10 +1241,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/cli-table", [\
-        ["npm:0.3.1", {\
-          "packageLocation": "./.yarn/cache/@types-cli-table-npm-0.3.1-03981af745-d6017999e3.zip/node_modules/@types/cli-table/",\
+        ["npm:0.3.4", {\
+          "packageLocation": "./.yarn/cache/@types-cli-table-npm-0.3.4-7c9075f6c9-25887c8b52.zip/node_modules/@types/cli-table/",\
           "packageDependencies": [\
-            ["@types/cli-table", "npm:0.3.1"]\
+            ["@types/cli-table", "npm:0.3.4"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -7724,7 +7724,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@semantic-release/npm", "virtual:66816de0515c212190491e2a34cc6e91ba2acdd48374085e0f9e2f9c01b7b1f3994f9786e0b52e680dcc3338caa7d097fba3f4044ae0a0582197792245433e6e#npm:10.0.3"],\
             ["@semantic-release/release-notes-generator", "virtual:66816de0515c212190491e2a34cc6e91ba2acdd48374085e0f9e2f9c01b7b1f3994f9786e0b52e680dcc3338caa7d097fba3f4044ae0a0582197792245433e6e#npm:11.0.3"],\
             ["@types/autobahn", "npm:20.9.1"],\
-            ["@types/cli-table", "npm:0.3.1"],\
+            ["@types/cli-table", "npm:0.3.4"],\
             ["@types/node", "npm:20.2.5"],\
             ["autobahn", "npm:22.11.1"],\
             ["cli-table", "npm:0.3.11"],\
