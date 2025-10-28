@@ -37,7 +37,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@semantic-release/release-notes-generator", "virtual:66816de0515c212190491e2a34cc6e91ba2acdd48374085e0f9e2f9c01b7b1f3994f9786e0b52e680dcc3338caa7d097fba3f4044ae0a0582197792245433e6e#npm:11.0.3"],\
             ["@types/autobahn", "npm:20.9.1"],\
             ["@types/cli-table", "npm:0.3.1"],\
-            ["@types/node", "npm:20.2.5"],\
+            ["@types/node", "npm:20.19.24"],\
             ["autobahn", "npm:22.11.1"],\
             ["cli-table", "npm:0.3.11"],\
             ["colors", "npm:1.4.0"],\
@@ -1266,10 +1266,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:20.2.5", {\
-          "packageLocation": "./.yarn/cache/@types-node-npm-20.2.5-0014d2d9ce-38ce7c7e9d.zip/node_modules/@types/node/",\
+        ["npm:20.19.24", {\
+          "packageLocation": "./.yarn/cache/@types-node-npm-20.19.24-b1b06bf5a3-d532a28d45.zip/node_modules/@types/node/",\
           "packageDependencies": [\
-            ["@types/node", "npm:20.2.5"]\
+            ["@types/node", "npm:20.19.24"],\
+            ["undici-types", "npm:6.21.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -7371,7 +7372,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@tsconfig/node12", "npm:1.0.9"],\
             ["@tsconfig/node14", "npm:1.0.1"],\
             ["@tsconfig/node16", "npm:1.0.2"],\
-            ["@types/node", "npm:20.2.5"],\
+            ["@types/node", "npm:20.19.24"],\
             ["@types/swc__core", null],\
             ["@types/swc__wasm", null],\
             ["@types/typescript", null],\
@@ -7542,6 +7543,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/uglify-js-npm-3.14.1-f667b63dfd-2685f53bae.zip/node_modules/uglify-js/",\
           "packageDependencies": [\
             ["uglify-js", "npm:3.14.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["undici-types", [\
+        ["npm:6.21.0", {\
+          "packageLocation": "./.yarn/cache/undici-types-npm-6.21.0-eb2b0ed56a-46331c7d60.zip/node_modules/undici-types/",\
+          "packageDependencies": [\
+            ["undici-types", "npm:6.21.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -7725,7 +7735,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@semantic-release/release-notes-generator", "virtual:66816de0515c212190491e2a34cc6e91ba2acdd48374085e0f9e2f9c01b7b1f3994f9786e0b52e680dcc3338caa7d097fba3f4044ae0a0582197792245433e6e#npm:11.0.3"],\
             ["@types/autobahn", "npm:20.9.1"],\
             ["@types/cli-table", "npm:0.3.1"],\
-            ["@types/node", "npm:20.2.5"],\
+            ["@types/node", "npm:20.19.24"],\
             ["autobahn", "npm:22.11.1"],\
             ["cli-table", "npm:0.3.11"],\
             ["colors", "npm:1.4.0"],\
