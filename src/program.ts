@@ -4,8 +4,7 @@ import { Connection } from 'autobahn'
 import { program } from 'commander'
 import * as repl from './repl'
 import 'colors'
-
-const pkg = require('../package.json')
+import pkg from '../package.json'
 
 program
   .version(pkg.version)

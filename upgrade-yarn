@@ -1,7 +1,0 @@
-#!/usr/bin/env bash
-yarn set version latest
-yarn plugin import interactive-tools
-yarn plugin import typescript
-yarn plugin import version
-yarn
-yarn dlx @yarnpkg/sdks
