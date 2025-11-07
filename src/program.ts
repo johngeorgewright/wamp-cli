@@ -2,9 +2,12 @@
 
 import { Connection } from 'autobahn'
 import { program } from 'commander'
-import * as repl from './repl'
+import * as repl from './repl.js'
 import 'colors'
-import pkg from '../package.json'
+import { createRequire } from 'node:module'
+
+const require = createRequire(import.meta.url)
+const pkg = require('../package.json') as { version: string }
 
 program
   .version(pkg.version)

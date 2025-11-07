@@ -10,8 +10,9 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "clean": "rimraf dist",
-    "start": "vite-node src/program.ts"
+    "clean": "rimraf src/*.{js,d.ts}",
+    "start": "vite-node src/program.ts",
+    "prepare": "husky"
   },
   "dependencies": {
     "autobahn": "^22.11.1",
@@ -38,12 +39,7 @@
   },
   "lint-staged": {
     "*.{md,json,js,jsx,ts,tsx,yml,yaml}": [
-      "yarn prettier --ignore-path .gitignore --write"
+      "npx prettier --ignore-path .gitignore --write"
     ]
-  },
-  "config": {
-    "commitizen": {
-      "path": "cz-conventional-changelog"
-    }
   }
 }
