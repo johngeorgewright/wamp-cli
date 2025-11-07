@@ -3,8 +3,6 @@ import * as repl from 'node:repl'
 import 'colors'
 import { Connection, Session } from 'autobahn'
 
-console.info(repl)
-
 export const start = (connection: Connection) => (session: Session) => {
   const variableTable = new Table({ head: ['Variable', 'Description'] })
   variableTable.push(['connection', 'The WAMP connection'])
