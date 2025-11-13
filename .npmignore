@@ -1,0 +1,11 @@
+.github
+.husky
+node_modules
+.nvmrc
+.prettierignore
+.releaserc
+commitlint.config.cjs
+docker-compose.yml
+prettier.config.cjs
+renovate.json
+tsconfig.json
