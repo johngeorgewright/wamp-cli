@@ -1,24 +1,28 @@
-WAMP CLI
-===
+# WAMP CLI
 
 > A CLI tool to help building applications with the Web Applications Messaging Protocol
 
-Installation
----
-
-1. Install Node.js
-1. `npm i -g wamp-cli`
-
-Usage
----
+## Usage
 
 ```
 # URL -> REALM
-$> wampc ws://localhost:9000/ws public
+$> npx -p wamp-cli wampc ws://localhost:9000/ws public
 
 Connecting to ws://localhost:9000/ws public
 
 Connected
+
+┌───────────────────┬─────────────────────────┐
+│ Command           │ Description             │
+├───────────────────┼─────────────────────────┤
+│ .SUB <topic>      │ Subscript to a topic    │
+├───────────────────┼─────────────────────────┤
+│ .PUB <topic>      │ Publish to a topic      │
+├───────────────────┼─────────────────────────┤
+│ .REG <procedure>  │ Register a RPC endpoint │
+├───────────────────┼─────────────────────────┤
+│ .CALL <procedure> │ Call a RPC endpoint     │
+└───────────────────┴─────────────────────────┘
 
 ┌────────────┬─────────────────────┐
 │ Variable   │ Description         │
