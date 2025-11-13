@@ -147,13 +147,19 @@ export const start = (connection: Connection) => (session: Session) => {
               const args = argsInput.trim() ? YAML.parse(argsInput) : []
               const kwargs = kwargsInput.trim() ? YAML.parse(kwargsInput) : {}
 
-              await session.call(procedure.trim(), args, kwargs)
+              const response = await session.call(
+                procedure.trim(),
+                args,
+                kwargs,
+              )
 
               console.info(
                 'Called',
                 procedure.green,
                 inspect({ args, kwargs }, false, 10).yellow,
               )
+
+              console.info('RES>'.cyan, response)
             } catch (error) {
               console.error(
                 `Error: ${
