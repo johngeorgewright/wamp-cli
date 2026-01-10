@@ -27,7 +27,7 @@
     "@commitlint/config-conventional": "20.3.1",
     "@types/autobahn": "20.9.4",
     "@types/cli-table": "0.3.4",
-    "@types/node": "24.10.4",
+    "@types/node": "24.10.5",
     "cz-conventional-changelog": "3.3.0",
     "husky": "9.1.7",
     "lint-staged": "16.2.7",
