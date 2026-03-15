@@ -36,7 +36,7 @@
     "semantic-release": "25.0.3",
     "ts-node": "10.9.2",
     "typescript": "5.9.3",
-    "vite-node": "^5.0.0",
+    "vite-node": "^6.0.0",
     "vitest": "^4.0.8"
   },
   "lint-staged": {
