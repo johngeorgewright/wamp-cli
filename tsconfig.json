@@ -6,6 +6,7 @@
     "module": "esnext",
     "moduleDetection": "force",
     "allowJs": true,
+    "types": ["autobahn", "cli-table", "node"],
 
     // Bundler mode
     "moduleResolution": "bundler",
@@ -20,12 +21,12 @@
     "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true,
 
-    "baseUrl": ".",
-
     // Some stricter flags (disabled by default)
     "noUnusedLocals": false,
     "noUnusedParameters": false,
-    "noPropertyAccessFromIndexSignature": false
+    "noPropertyAccessFromIndexSignature": false,
+
+    "rootDir": "src"
   },
   "include": ["src"]
 }

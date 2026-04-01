@@ -1,7 +1,7 @@
 import Table from 'cli-table'
 import * as repl from 'node:repl'
 import 'colors'
-import { Connection, Session } from 'autobahn'
+import type { Connection, Session } from 'autobahn'
 import { inspect } from 'node:util'
 import YAML from 'yaml'
 
