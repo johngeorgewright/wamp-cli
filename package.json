@@ -23,8 +23,8 @@
     "yaml": "^2.8.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "20.5.3",
-    "@commitlint/config-conventional": "20.5.3",
+    "@commitlint/cli": "21.0.2",
+    "@commitlint/config-conventional": "21.0.2",
     "@types/autobahn": "20.9.4",
     "@types/cli-table": "0.3.4",
     "@types/node": "24.13.2",
